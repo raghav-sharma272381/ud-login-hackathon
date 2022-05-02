@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-shape-divider-top-1644378519 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1644378519 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1644378519 .shape-fill {
+  fill: #5a21b6;
+}
+
+.custom-shape-divider-bottom-1644379361 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1644379361 svg {
+  position: relative;
+  display: block;
+  width: calc(261% + 1.3px);
+  height: 184px;
+}
+
+.custom-shape-divider-bottom-1644379361 .shape-fill {
+  fill: #5a21b6;
+}
+
+.custom-shape-divider-top-1644379734 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1644379734 svg {
+  position: relative;
+  display: block;
+  width: calc(261% + 1.3px);
+  height: 283px;
+}
+
+.custom-shape-divider-top-1644379734 .shape-fill {
+  fill: #5a21b6;
+}
+
+.carousel {
+  display: inline-flex;
+  overflow-x: hidden;
+  /*  scroll snap is a great feature which will center the image on snap on touch screen devices  */
+  scroll-snap-type: x mandatory;
+  /* all below will hide the scrollbar on all browsers.    */
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.custom-shape-divider-bottom-1645377793 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1645419722 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1645419722 svg {
+  position: relative;
+  display: block;
+  width: calc(163% + 1.3px);
+  height: 228px;
+}
+
+.custom-shape-divider-bottom-1645419722 .shape-fill {
+  fill: #5a21b6;
+}
