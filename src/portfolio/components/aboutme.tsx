@@ -1,7 +1,6 @@
 import React from "react";
 import me from "../assets/mee .png";
 import unnamed from '../assets/unnamed.png'
-import Typical from "react-typical";
 
 function Aboutme() {
   return (
@@ -11,11 +10,7 @@ function Aboutme() {
 
         <div className="border-2  py-11 px-9 max-w-lg  bg-white shadow-lg rounded-lg my-2  ">
           <p className="text-left text-4xl font-mono  ">
-            <Typical
-              steps={["", 1000, "About", 1000, "About me", 1000]}
-              loop={1}
-              wrapper="p"
-            />
+            About me
           </p>
           <p className="text-left text-base font-mono mt-2  ">
             Welcome to my website :-)

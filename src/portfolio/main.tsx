@@ -1,7 +1,7 @@
 import About from "./components/aboutme";
 import TechIknow from "./components/techIknow";
 import Projects from "./components/projects";
-import Interest from "./components/interest";
+// import Interest from "./components/interest";
 import Contact from "./components/Contact";
 import {uauth} from "../config/unstoppableDomain"
 
@@ -55,7 +55,6 @@ function Main1() {
             <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
               <li>
                 <a
-                  herf="#"
                   className="block py-2 pr-4 pl-3 text-white bg-violet-700 rounded md:bg-transparent md:text-violet-700 md:p-0 dark:text-white"
                   aria-current="page"
                 >
@@ -111,7 +110,6 @@ function Main1() {
       <About />
       <TechIknow />
       <Projects />
-      <Interest />
       <Contact />
     </div>
   );
